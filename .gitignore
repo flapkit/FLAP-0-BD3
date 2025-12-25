@@ -1,0 +1,69 @@
+# EDA Tool Files
+# KiCad
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*.kicad_dbl
+*.kicad_wks
+*.kicad_mod
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*.kicad_dbl
+*.kicad_wks
+*.kicad_mod
+*.kicad_prl
+fp-info-cache
+*.pretty/
+*.3dshapes/
+
+# Altium Designer
+*.SchDoc.Zip
+*.PcbDoc.Zip
+*.PrjPCB.Zip
+*.IntLib.Zip
+*.SchLib.Zip
+*.PcbLib.Zip
+History/
+__Previews/
+
+# Eagle
+*.b#*
+*.s#*
+*.l#*
+*.brd.bak
+*.sch.bak
+*.lbr.bak
+
+# OrCAD
+*.OLB
+*.OPJ
+*.DSN
+*.DBK
+*.LOG
+*.TMP
+
+# Build artifacts
+*.bak
+*.backup
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+

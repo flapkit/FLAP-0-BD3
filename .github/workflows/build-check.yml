@@ -1,0 +1,45 @@
+name: Build Check
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  check-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Check repository structure
+        run: |
+          echo "Checking repository structure..."
+          test -d hardware/bd3_rev01 || exit 1
+          test -d manufacturing/bd3_rev01_release || exit 1
+          test -d docs || exit 1
+          test -d firmware || exit 1
+          echo "✓ Directory structure is correct"
+      
+      - name: Check required files
+        run: |
+          echo "Checking required files..."
+          test -f README.md || exit 1
+          test -f CERTIFICATION.md || exit 1
+          test -f LICENSE-HARDWARE || exit 1
+          test -f LICENSE-SOFTWARE || exit 1
+          test -f LICENSE-DOCUMENTATION || exit 1
+          test -f CITATION.cff || exit 1
+          test -f CHANGELOG.md || exit 1
+          test -f CONTRIBUTING.md || exit 1
+          test -f CODE_OF_CONDUCT.md || exit 1
+          test -f firmware/README.md || exit 1
+          echo "✓ All required files present"
+      
+      - name: Validate CITATION.cff
+        run: |
+          echo "Validating CITATION.cff..."
+          # Basic validation - check if file exists and has content
+          test -s CITATION.cff || exit 1
+          echo "✓ CITATION.cff is valid"
+

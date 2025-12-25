@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "FLAP-0"
+    given-names: "Project"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "FLAP-0 BD3 - Open FPGA CubeSat Development Board"
+version: "BD3 Rev 01"
+date-released: "2024-01-01"
+doi: "10.0000/example"
+url: "https://github.com/flapkit/FLAP-0-BD3"
+repository-code: "https://github.com/flapkit/FLAP-0-BD3"
+license: "CERN-OHL-S-2.0"
+keywords:
+  - "FPGA"
+  - "CubeSat"
+  - "Open Hardware"
+  - "Open Source Hardware"
+  - "Educational"
+  - "Research"
+abstract: "FLAP-0 BD3 is an open-source FPGA-based CubeSat development board designed for education, research, and early-stage space systems prototyping. The board enables experimentation with reconfigurable logic, control systems, sensor interfacing, and hardware–software co-design using fully open design files and documentation."
+
