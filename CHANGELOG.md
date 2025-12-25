@@ -23,6 +23,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Manufacturing files (Gerber, drill files, pick-and-place)
 - Educational documentation and lab guides
 
-[Unreleased]: https://github.com/flapkit/FLAP-0-BD3/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/flapkit/FLAP-0-BD3/compare/bd3-rev01...HEAD
 [BD3 Rev 01]: https://github.com/flapkit/FLAP-0-BD3/releases/tag/bd3-rev01
 
