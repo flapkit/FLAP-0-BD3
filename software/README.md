@@ -4,7 +4,7 @@ Software, HDL designs, and related tooling for FLAP-0 BD3 are maintained in a se
 
 ## Software Repository
 
-**Repository**: [FLAP-0-BD3-Firmware](https://github.com/flapkit/FLAP-0-BD3-Firmware)
+**Repository**: [FLAP-0-BD3-Software](https://github.com/flapkit/FLAP-0-BD3-Software)
 
 ## Contents
 
@@ -18,7 +18,7 @@ The software repository contains:
 
 ## Getting Started
 
-Please visit the [FLAP-0-BD3-Firmware repository](https://github.com/flapkit/FLAP-0-BD3-Firmware) for:
+Please visit the [FLAP-0-BD3-Software repository](https://github.com/flapkit/FLAP-0-BD3-Software) for:
 - Installation instructions
 - Build documentation
 - Example designs
