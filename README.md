@@ -26,7 +26,7 @@ BD3 serves as the foundational hardware platform in the FLAP-0 family.
 - PCB layout files  
 - Bill of materials  
 - Assembly outputs  
-- Firmware and reference designs  
+- Software and reference designs  
 - Documentation and lab materials  
 
 All files are provided in editable source formats.
