@@ -1,6 +1,8 @@
 # FLAP-0 BD3  
 **Open FPGA CubeSat Development Board**
+<br>
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/6c84066e-093c-4f0d-a342-967063078ad4" />
 <br>
 
 ## Overview
@@ -20,9 +22,9 @@ BD3 serves as the foundational hardware platform in the FLAP-0 family.
 ## Repository Contents
 
 - Schematics  
-- PCB layout files  
+- PCB layout files 
 - Bill of materials  
-- Assembly outputs  
+- Assembly outputs   
 - Firmware and reference designs  
 - Documentation and lab materials  
 
