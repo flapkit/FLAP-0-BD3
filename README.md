@@ -7,7 +7,7 @@
 
 ## Overview
 
-FLAP-0 is an open FPGA-based CubeSat avionics and learning platform designed to support education, research, and early-stage mission development. By providing complete, editable design files and reproducible documentation, FLAP-0 enables students, universities, and researchers to explore modern space systems engineering using reconfigurable logic as a first-class computing substrate.
+FLAP-0 BD3 is an open-source FPGA-based CubeSat development board designed for education, research, and early-stage space systems prototyping. The board enables experimentation with reconfigurable logic, control systems, sensor interfacing, and hardware–software co-design using fully open design files and documentation.
 
 BD3 serves as the foundational hardware platform in the FLAP-0 family.
 
