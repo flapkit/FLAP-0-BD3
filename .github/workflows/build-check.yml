@@ -18,7 +18,7 @@ jobs:
           test -d hardware/bd3_rev01 || exit 1
           test -d manufacturing/bd3_rev01_release || exit 1
           test -d docs || exit 1
-          test -d firmware || exit 1
+          test -d software || exit 1
           echo "✓ Directory structure is correct"
       
       - name: Check required files
@@ -33,7 +33,7 @@ jobs:
           test -f CHANGELOG.md || exit 1
           test -f CONTRIBUTING.md || exit 1
           test -f CODE_OF_CONDUCT.md || exit 1
-          test -f firmware/README.md || exit 1
+          test -f software/README.md || exit 1
           echo "✓ All required files present"
       
       - name: Validate CITATION.cff
