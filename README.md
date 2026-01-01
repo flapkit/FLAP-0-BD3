@@ -3,6 +3,9 @@
 
 <br>
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/6c84066e-093c-4f0d-a342-967063078ad4" />
+<br>
+
 ## Overview
 
 FLAP-0 BD3 is an open-source FPGA-based CubeSat development board designed for education, research, and early-stage space systems prototyping. The board enables experimentation with reconfigurable logic, control systems, sensor interfacing, and hardware–software co-design using fully open design files and documentation.
